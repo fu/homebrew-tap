@@ -6,25 +6,25 @@ cask "kfs" do
     end
   end
 
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
     on_arm do
-      sha256 "6e0a50651fdab07fde2501e687a2081b38f349f42a601e10742bb7acf7493c83"
+      sha256 "1aaf66bcd4ce14ebba19f6198dae8175c5ca57e3f42ad2d817c3e728d096595e"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9efa4854d30bae3d2180d1e78ca17dc02dc5d9142a55354922d94c6ce8327562"
+      sha256 "57dc5c4ac766c75dc3f88068facad539e658c5d823a6713df7de320b505f88cc"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "afe7b4ef286e294b60c66a1d4e3e7c50cb29d0c5f3a23afcaf2cfbd59953c5bb"
+      sha256 "cd90af5167251c21c4571ed7435be9a791e754e4edfc4c446d0a15bf0d737885"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "84704f6f015d478e21383be2c6ae48c03a27e4085a72ab031e4a56ab8df01154"
+      sha256 "d7afe131556b44712be16d5da15892e36cfb31a4536ec56ed1c7c5d448969d35"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_linux_amd64.tar.gz"
     end
   end
