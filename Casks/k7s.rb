@@ -6,25 +6,25 @@ cask "k7s" do
     end
   end
 
-  version "0.4.2"
+  version "0.4.3"
 
   on_macos do
     on_arm do
-      sha256 "9ea9ee5a27316808c90b063dff900d54f9c1be793f110441899d04a1ab6551a3"
+      sha256 "d5d73b65ecdeb6153ea31d6e9bbcef71037b9e4e2c52dad2450f4c1560f9f6d0"
       url "https://github.com/fu/k7s/releases/download/v#{version}/k7s_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ea699ada39b050576cce417792b84cd04b6bdcefd5e1ad3a1b4801e74ad41232"
+      sha256 "0c90c6e04b54dfc1adccc4bf8ab86084b0b832c1a34796556701f7239722e85c"
       url "https://github.com/fu/k7s/releases/download/v#{version}/k7s_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "ce8a79940211c9553eed52c912ce9df1739e57d05988724c7c21aac7363dc81b"
+      sha256 "2d387f886896d2c671a0dec33cf9de101be7fd2517a6285228970a4780547991"
       url "https://github.com/fu/k7s/releases/download/v#{version}/k7s_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b5ed4fc96b58c6f89f6dde79eb861a8b3f2890eee3611af3bd097885f541dcef"
+      sha256 "3c426ab5fc398f18e873040539e22188e1de9aa48fe7b3096bf0239e8e6ef7ed"
       url "https://github.com/fu/k7s/releases/download/v#{version}/k7s_#{version}_linux_amd64.tar.gz"
     end
   end
