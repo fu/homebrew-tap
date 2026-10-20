@@ -6,31 +6,31 @@ cask "kfs" do
     end
   end
 
-  version "0.5.2"
+  version "0.5.3"
 
   on_macos do
     on_arm do
-      sha256 "d5fa9ae67ef22b42d2fbc14225e51d88644ad60b6ecb9ba9ba1a2333cebc0436"
+      sha256 "6a088129e31feea555f92e8e6e0f8b8d5fb981f40a59c57d9231534e629be98e"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "4d33819d49d07ff894ba562b3c291af7246f71b1e614c27075a2c56715f6d6a2"
+      sha256 "1fa1050bbb42bbf2524c4cf263545cba72daad0a0a6e6d5d4bcd913d12982a86"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "9f4ded81838d2c8ecb07bb68a0402c7643c770b7fdc96d0b0b96f292733dce9f"
+      sha256 "b79b1fd385c2a5cc14b39e9757047949f2a2404c4155b6ca275e5bb01920cffa"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "4f6da7fdc831e66fecbf73981d00d26124648527b082fcdf3f48d207f4fa5da8"
+      sha256 "028e2df297eb2510eb64e4130aebca3b240eced4cb549f10f01bce66b793ba65"
       url "https://github.com/fu/kfs/releases/download/v#{version}/kfs_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "kfs"
-  desc "Live kubectl views: more than kubectl, less than k9s"
+  desc "One namespace, everything in it, live: kubectl get -w on steroids"
   homepage "https://github.com/fu/kfs"
 
   livecheck do
